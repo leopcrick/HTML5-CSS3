@@ -1,0 +1,22 @@
+Símbolos e emojis - https://www.w3schools.com/charsets/ref_utf_symbols.asp
+
+Emojis (colocar &#x antes do código do emoji) - https://emojipedia.org/
+
+Ícones  - https://www.iconarchive.com/
+	- https://favicon.io/
+
+Tipos de types para download
+	- https://www.iana.org/assignments/media-types/media-types.xhtml
+
+Cores e paletas
+	- https://color.adobe.com/pt/create/color-wheel
+	- https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+	- https://coolors.co/313715-d16014-939f5c-bbce8a-e2f9b8
+
+Fontes
+	- https://fonts.google.com/
+	- https://www.dafont.com/pt/
+	- https://chromewebstore.google.com/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=pt-BR (Roubar fonte de um site https://www.youtube.com/watch?v=XTtfM0L7Co0&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=16)
+	- https://www.whatfontis.com/ (roubar fonte de imagem)
+	- https://www.fontsquirrel.com/ (roubar fonte de imagem)
+	- https://www.myfonts.com/ (roubar fonte de imagem)

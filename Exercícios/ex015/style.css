@@ -1,0 +1,14 @@
+@charset "UFT-8";
+
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h2{
+    color: blue;
+    background-color: lightgreen;
+}
+h3{
+    color: darkred;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://www.instagram.com/leopcrick/" rel="external">perfil do instagram</a>, onde ao clicar você será redirecionado diretamente ao link</p>
+    <p>Você também pode acessar meu <a href="https://www.youtube.com/@rickkbeatz" target="_blank" rel="external">canal de música no youtube</a>, onde ao clicar será aberta uma nova aba no navegador com o link aberto. Isso se deve pois usei o comando <em>target="_blank"</em> logo após as aspas do link.</p>
+    <p>Ao colocar links externos, é legal utilizar o comando <em>rel="external"</em> para indicar uma referência externa ao seu site.</p>
+    <hr>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag2.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag3.html" target="_self">página de notícias</a></p>
+    <hr>
+    <h2>Links para downloads</h2>
+    <ul>
+        <li><a href="music/musica nova.wav" download="musica nova" type="audio/wav">Baixar a música em MP3</a></li>
+        <li><a href="music/musica nova.rar" download="musica nova" type="application/zip">Baixar música compactada</a></li>
+    </ul>
+    <p>Deve-se colocar o comando <em>type</em> para especificar o tipo de arquivo a ser baixado. Isto ajudará na semântica</p>
+</body>
+</html>

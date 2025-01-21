@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2>
+    <p>Veja a lista numerada</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>Podemos também numerar a lista alfabeticamente</p>
+    <ol type="a" start="5">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <br>
+    <p>Fazemos essas alterações com o comando type="a", para organizar em ordem alfabética com letras minúsculas, type="A" para maiúsculas, type="i" para algarismos romanos minúsculos e type="I" para romanos maiúsculos. O padrão é type="1" em que é aplicada a ordem numérica normal.</p>
+    <p>Também é possível fazer a lista começando de outro ponto com o comando start="4", veja:</p>
+    <ol type="1" start="4">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <hr>
+    <h2>Listas Não Ordenadas</h2>
+    <p>Agora veja a lista sem numeração</p>
+    <ul>
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ul>
+    <p>Podemos também selecionar o ícone da listagem adicionando o comando type=""</p>
+    <ul>
+        <li type="circle">type="circle"</li>
+        <li type="square">type="square"</li>
+        <li type="disc">type="disc"</li>
+    </ul>
+    <hr>
+    <h2>Comandos legais</h2>
+    <p>Escrevendo <em>li*7</em>, você cria 7 linhas com o comando <em>li</em>. Também é possível digitando <em>ol>li*4</em>, onde será criado o comando <em>ol</em> com as 4 <em>li</em> dentro. O mesmo vale para qualquer comando aparentemente.</p>
+    <p>Apertando Ctrl+Enter você começa um nova linha, independente de onde o cursos esteja.</p>
+    <hr>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>SNES</li>
+        <ul>
+            <li>Aladdin</li>
+            <li>Bomberman</li>
+        </ul>
+        <li>Playstation 3</li>
+        <ul>
+            <li>Shadow of the colossus</li>
+            <li>Modern Warfare</li>
+            <ul>
+                <li>MW2</li>
+                <li>BO1</li>
+            </ul>
+        </ul>
+        <li>PC</li>
+        <ul>
+            <li>Portal</li>
+            <li>Rocket League</li>
+        </ul>
+    </ol>
+    <hr>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+    </dl>
+    <br>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um</dd>
+    </dl>
+
+
+</body>
+</html>
