@@ -20,3 +20,5 @@ Fontes
 	- https://www.whatfontis.com/ (roubar fonte de imagem)
 	- https://www.fontsquirrel.com/ (roubar fonte de imagem)
 	- https://www.myfonts.com/ (roubar fonte de imagem)
+
+	linha a apagar depois
