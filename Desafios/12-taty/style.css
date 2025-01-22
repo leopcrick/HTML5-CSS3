@@ -73,6 +73,7 @@ pre{
     display: inline-block;
     margin: 5vh 1rem;
     max-width: 100%;
+    white-space: pre-line;
     }
 pre.semimagem{
 
