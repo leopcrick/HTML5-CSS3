@@ -20,7 +20,7 @@ header{
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     max-width: 100%;
 }
 header p{
@@ -33,11 +33,11 @@ header a{
 }
 
 div{
-    padding: 0;
-/*     border: 1px solid black; */
+    /* border: 1px solid black; */
     display: flex;
     box-shadow: 0px 0px 5px black;
     margin: 0;
+    padding: 0;
     width: 100%;
 }
 div#imagem1{
@@ -63,9 +63,9 @@ pre{
     line-height: 1em;
     /* font-size: 3vmax; */
     /* border: 1px solid black; */
-    padding: 4vh 4vw 0px 3vw;
+    padding: 3vh 2vw 0px 2vw;
     display: inline-block;
-    margin: 5vh 10vw;
+    margin: 5vh 5vw;
     max-width: 100%;
     }
 pre.semimagem{
@@ -77,10 +77,12 @@ pre.comimagem{
 }
 
 
+
 footer{
     text-align: center;
     background-color: black;
     color: white;
     padding: 2px 0px 2px 0px;
+    font-size: 0.9em;
     max-width: 100%;
 }
