@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.cedarville-cursive-regular {
+font-family: "Cedarville Cursive", serif;
+font-weight: lighter;
+font-style: normal;
+}
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+}
+header p{
+    font-weight: lighter;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+div{
+    padding: 0px 25px;
+/*     border: 1px solid black; */
+    display: flex;
+    box-shadow: 0px 0px 5px black;
+    margin: 0vh 0vh;
+}
+div#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+pre{
+    font-family: Cedarville Cursive, serif;
+    font-size: 2em;
+    line-height: 1em;
+    /* border: 1px solid black; */
+    padding: 30px 40px 0px 30px;
+    display: inline-block;
+    margin: 5vh 10vh;
+    }
+pre.semimagem{
+
+}
+pre.comimagem{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px 0px 2px 0px;
+}
