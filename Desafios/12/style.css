@@ -63,9 +63,9 @@ pre{
     line-height: 1em;
     /* font-size: 3vmax; */
     /* border: 1px solid black; */
-    padding: 3vh 2vw 0px 2vw;
+    padding: 1.5rem 2vw 0px 2vw;
     display: inline-block;
-    margin: 5vh 5vw;
+    margin: 5vh 1.5rem;
     max-width: 100%;
     }
 pre.semimagem{
