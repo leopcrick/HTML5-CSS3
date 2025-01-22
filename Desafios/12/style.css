@@ -12,6 +12,7 @@ font-style: normal;
 }
 html, body{
     width: 100%;
+    overflow-x: hidden;
 }
 
 header{
@@ -20,6 +21,7 @@ header{
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
+    max-width: 100%;
 }
 header p{
     font-weight: lighter;
@@ -80,4 +82,5 @@ footer{
     background-color: black;
     color: white;
     padding: 2px 0px 2px 0px;
+    max-width: 100%;
 }
