@@ -65,7 +65,7 @@ div#imagem3{
 
 pre{
     font-family: Cedarville Cursive, serif;
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.5rem, 2.8vw, 2.5rem);
     line-height: 1.25em;
     /* font-size: 3vmax; */
     /* border: 1px solid black; */
