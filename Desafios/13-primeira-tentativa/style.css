@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 :root{
-
+    --largura: 350px;
+    --altura: calc(var(--largura) / 417 * 706)
 }
+--largura-menor: calc(var(--largura-principal) - 17px);
 
 *{
 
@@ -24,8 +26,8 @@ a img:hover{
     outline: 2px solid white;
 }
 iframe{
-    width: 417px;
-    height: 706px;
+    width: var(--largura);
+    height: var(--altura);
     display: flex;
     margin: auto;
 }
