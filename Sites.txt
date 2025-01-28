@@ -4,6 +4,8 @@ Emojis (colocar &#x antes do código do emoji) - https://emojipedia.org/
 
 Ícones  - https://www.iconarchive.com/
 	- https://favicon.io/
+	- https://fonts.google.com/icons
+
 
 Tipos de types para download
 	- https://www.iana.org/assignments/media-types/media-types.xhtml
