@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+<!-- ou jogar tudo dentro de style dentro de uma outra css <link rel="stylesheet" href="estilos/style.css"> -->
+    <style>
+        /* Declarações gerais */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            background-size: contain;
+        }
+
+        h1{
+            text-shadow: 1px 1px 0px darkblue;
+            padding: 10px;
+        }
+        /* Declarações retrato */
+        @media screen and (orientation: portrait) {
+            body{
+            background: blue url(../../imagens/cev-portrait.jpg) no-repeat fixed bottom;
+        }
+        }
+        /* Declarações paisagem */
+        @media screen and (orientation: landscape) {
+            body{
+            background: blue url(../../imagens/cev-landscape.jpg) no-repeat fixed center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu celular</h1>
+</body>
+</html>
