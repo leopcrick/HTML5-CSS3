@@ -33,14 +33,25 @@ header a{
 }
 header a:hover{
     background-color: darkgray;
+    color: black;
+    font-weight: bold;
     transition-duration: .1s;
 }
+nav{
+    display: none;
+}
 span{
+    background-color: darkslategray;
+    color: white;
     display: block;
     cursor: pointer;
-    padding: 5px 48vw;
-    background-color: darkgray;
+    padding: 5px 0px;
+    width: 100vw;
     text-align: center;
+}
+span:hover{
+    background-color: darkgray;
+    color: black;
 }
 
 main{
