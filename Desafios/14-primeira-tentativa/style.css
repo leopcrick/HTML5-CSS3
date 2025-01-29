@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+main{
+    background-color: white;
+    width: 40vw;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#caixadeimagem{
+    width: 40vw;
+    height: 25vh;
+    background: blue url(imagens/imagemlogin.jpg) no-repeat fixed center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+div#caixadetexto{
+    width: 40vw;
+    height: 50vh;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+}
+p{
+    padding: 0px 20px;
+    text-align: left;
+}
+p.login{
+    display: block;
+    background-color: blue;
+    justify-content: center;
+    width: 30vw;
+    text-align: center;
+}
+input#entrar, a{
+    background-color: gray;
+    width: 30vw;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px solid black;
+}
+img{
+    padding: 0px 10px 0px 0px;
+    height: 2em;
+}

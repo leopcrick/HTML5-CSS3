@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+main{
+    background-color: white;
+    width: 50vw;
+    min-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+    border-radius: 20px;
+    
+}
+
+div#caixadeimagem{
+    height: 25vh; 
+    background: blue url(imagens/imagemlogin.jpg) no-repeat fixed center;
+    background-size: cover;
+    width: 50vw;
+    min-width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+div#caixadetexto{
+    display: block;
+    justify-content: center;
+    height: 50vh;  
+    width: 40vw;
+    min-width: 300px;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+p{
+    width: 100%;
+}
+
+p.input{
+    background-color: blue;
+    margin: 10px 0px;
+    border-radius: 5px;
+    height: fit-content;
+}
+p.entrar{
+    background-color: green;
+}
+
+input{
+    height: 30px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: 0px solid black;
+}
+input.entrar{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 0px solid black;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+img{
+    height: 30px;
+    flex-direction: row; /* Organiza os itens verticalmente */
+    align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+    border-radius: 20px;
+    color: white;
+}
+a{
+    height: 30px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+    border: 0px solid black;
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.1em;
+}
