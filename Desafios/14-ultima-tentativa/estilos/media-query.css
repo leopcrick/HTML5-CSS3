@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+Pequenas: até 600px
+Celular: até 768px
+Table: até 992px
+Desktop: até 1200px
+Grandes: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    main{
+        display: flex;
+        width: 80%;
+        max-width: 800px;
+        height: 80vh;
+        max-height: 400px;
+        min-height: 350px;
+    }
+    div#caixadeimagem{
+        display: block;
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    div#caixadetexto{
+        display: block;
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 80%;
+        max-width: 1000px;
+        height: 80vh;
+        max-height: 400px;
+        min-height: 350px;
+    }
+    div#caixadeimagem{
+        display: block;
+        float: right;
+        width: 38%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    div#caixadetexto{
+        display: block;
+        float: left;
+        width: calc(60% - 10px);
+        height: 100%;
+        padding: 0px 10px;
+    }
+}
