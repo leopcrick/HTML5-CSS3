@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 100px) 500px;
+    grid-template-rows: 400px 200px 100px;
+    justify-items: stretch;
+    align-items: center;
+}
+
+.item{
+    background-color: lightblue;
+    margin: 20px;
+    border: 2px solid black
+/*     height: 100px; */
+}
